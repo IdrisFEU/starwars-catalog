@@ -1,0 +1,137 @@
+* { margin: 0; padding: 0;}
+
+body {
+    background-color: #424242;
+    font-family: Arial;
+}
+
+.header {
+    background-image: url('./header.png');
+    width: 100%;
+    height: 353px;
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+    position: relative;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.box {
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box h2 {
+    background-color: #535557; 
+    padding: 10px;
+    color: #fbd74a;
+    text-align: center;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.detail {
+    float:right;
+}
+
+.detail h2 {
+    background-color: #748687;
+}
+
+.character {
+    background-color: #c4c4c4;
+    float: left;
+}
+
+.character ul {
+    list-style: none
+}
+
+.character ul li {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.character ul li:nth-child(odd) { 
+    background-color: #8e8e8e;
+    color: white
+}
+
+.character ul li:nth-child(even) { 
+    background-color: #e1dede;
+    color: #535557
+}
+
+.character ul li:hover {
+    color: white;
+    background-color: #444444;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+
+}
+
+.pagination a {
+    color: black;
+    text-decoration: none;
+}
+
+.loading {
+   text-align: center;
+   display: none;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+.detail-box {
+    background-color: #c4c4c4;
+    display: flex;
+    padding: 20px;
+    min-height: 150px;
+}
+
+.loadingdetail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+.loadinghomeworld {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.homeworld-box {
+    display: flex;
+    background-color: #8e8e8e;
+    padding: 20px;
+    color: white;
+    min-height: 150px;
+}
